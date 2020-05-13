@@ -352,7 +352,7 @@ function StandardBuild {
     BumpVersions -build $build -clientStateFIPS $clientStateFIPS -prereleaseSuffix $prereleaseSuffix
 
     #Restore the packages
-    ExecuteRestore
+    #ExecuteRestore
 
     #Execute the builds
     ExecuteBuildAndPublish -build $build
